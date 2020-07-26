@@ -21,4 +21,3 @@ def unknown_key_decoding(ciphertext): #uses brute force
             print(chr((ord(i) + j - 65) % 26 + 65), end='')
         print('\n')
 
-unknown_key_decoding_brute_force('bqqmf')
