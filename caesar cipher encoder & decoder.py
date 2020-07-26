@@ -4,6 +4,7 @@ import random
 def known_key_encoding(plaintext, shift):
     for i in plaintext.upper().strip():
         print(chr((ord(i) + shift - 65) % 26 + 65), end='')
+        
 def random_encoding(plaintext):
     shift = random.randint(1,100)
     print('shift of {}'.format(shift))
